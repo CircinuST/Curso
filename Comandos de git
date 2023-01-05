@@ -1,0 +1,27 @@
+COMANDOS DE GIT
+
+    git
+    git --version
+    /*Cambiar nombre*/
+    git config --global user.name "Gerardo Fragoso"
+    /*Ver nombre*/
+    git config user.name
+    /*Cambiar email*/
+    git config --global user.email "gerard1528@hotmail.com"
+    /*Ver email*/
+    git config user.email
+    /*Cambiar color del CMD de git*/
+    git config --global color.ui true
+
+    /*---------------------PASOS PARA AGREGAR VERSIONES EN GIT---------------------*/
+    /*Para crear nuevo repositorio dentro de la carpeta deseada*/
+    git init 
+    /*Nos permite ver el estado actual del repositorio*/
+    git status
+    /*Para agregar un archivo al staing index y agregarlo futuramente a una nueva version*/
+    git add index.html //por ejemplo
+    /*Ahora para guardar una nueva version se hace lo siguiente*/
+    git commit -m "Poner descripcion max 50 caracteres - (Tiene que decir que estamos modificando de nuestro sitio)"
+    EJEMPLO : git commit -m "Agregando index.html"
+
+
