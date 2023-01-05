@@ -48,5 +48,23 @@ COMANDOS DE GIT
     git log --graph
     /*Ejecuta todo en conjunto*/
     git log --oneline --graph --all
-    /*Me dice cual es la diferencia entre el commit pasado y el contenido que acabamos de crear (Te muestra lo que se ha cambiado pero no se ha creado nueva version desde la pasada)*/
+    /*Me dice cual es la diferencia entre el commit pasado y el contenido que acabamos de crear '+*#$#*+' (Te muestra lo que se ha cambiado pero no se ha creado nueva version desde la pasada)*/
     git diff
+    /*NOTA: Escribir "q" para salir de la pantalla de git diff*/
+    /*Para comparar mi contenido actual con el de algun commit x (Nos muestra lo que se ha cambiado hasta el momento)*/ '+*#$#*+'
+    git diff b45d597 index.html --> (Los ultimos numeros son el identificador del commit y lo podemos ver si ejecutamos "git log --oneline")
+    /*Para regresar al commit en el que tenia tal contenido se hace lo siguiente (regresar a una version anterior)*/
+    git checkout 2a61753 --> (Hay que tener cuidado porque se borrara lo que hicimos entre esas versiones) '+*#$#*+'
+
+    /*---------------------BRANCHES O RAMAS EN GIT---------------------*/
+    /*Nos permite conocer todas las ramas que tenemos*/
+    git branch
+    /*Para juntar un commit pasado y regresarlo con el codigo original se hace esto:*/
+    merge
+    /*Nos permite pasarle un parametro que es el de master y poder cambiar a la rama de master (Hay que tener cuidado porque se borrara lo que hicimos entre esas versiones) '+*#$#*+'*/
+    git checkout master
+    /*Para crear una nueva rama*/
+    git checkout -b nombredelarama
+
+    
+    
