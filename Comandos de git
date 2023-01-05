@@ -71,7 +71,7 @@ COMANDOS DE GIT
     git merge experimento --> (Queremos que nuestra rama de experimento me la juntes con la de master)
     /*Para borrar una rama se hace lo siguiente*/
     git branch -d experimento -->(Despues de juntar las 2 ramas master y experimento si queremos la podemos borrar ya que hemos salvado los cambios)
-    /*Para agregar cambios a github*/
+    /*Para agregar cambios de nuestro codigo a github*/
     git push -u origin master
     /*Para descargar codigo con cambios hechos en github*/
     git pull origin master
