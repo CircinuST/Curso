@@ -23,5 +23,9 @@ COMANDOS DE GIT
     /*Ahora para guardar una nueva version se hace lo siguiente*/
     git commit -m "Poner descripcion max 50 caracteres - (Tiene que decir que estamos modificando de nuestro sitio)"
     EJEMPLO : git commit -m "Agregando index.html"
-
+    /*---------------------PARA VOLVER A GUARDAR NUEVA VERSION---------------------*/
+    /*Para agregar mas de 1 archivo y no estar escribiendo nombre por nombre solo ponemos lo sig*/
+    git add .
+    /*Despues volvemos a poner */
+    git commit -m "Agregando estructura basica de HTML"
 
