@@ -61,10 +61,13 @@ COMANDOS DE GIT
     git branch
     /*Para juntar un commit pasado y regresarlo con el codigo original se hace esto:*/
     merge
-    /*Nos permite pasarle un parametro que es el de master y poder cambiar a la rama de master (Hay que tener cuidado porque se borrara lo que hicimos entre esas versiones) '+*#$#*+'*/
+    /*Nos permite pasarle un parametro que es el de master y poder cambiar a la rama de master
     git checkout master
     /*Para crear una nueva rama*/
     git checkout -b nombredelarama
-
-    
-    
+    /*Para cambiar de rama escribimos*/ 
+    git checkout master / git checkout experimento / etc (NOTA: No se borran los datos siempre y cuando sea entre ramas y no entre versiones) '+*#$#*+'
+    /*Para juntar las ramas se hace lo siguiente*/
+    git merge experimento --> (Queremos que nuestra rama de experimento me la juntes con la de master)
+    /*Para borrar una rama se hace lo siguiente*/
+    git branch -d experimento -->(Despues de juntar las 2 ramas master y experimento si queremos la podemos borrar ya que hemos salvado los cambios)
